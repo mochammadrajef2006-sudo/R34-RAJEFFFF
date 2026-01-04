@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #270370;
+}
+
+header {
+  background: #111;
+  color: blue;
+  text-align: center;
+  padding: 30px;
+}
+
+.banner {
+  background: url('../img/r34-1.jpg') center/cover no-repeat;
+  height: 300px;
+}
+
+.banner-text {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  background: #333;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #555;
+}
+
+.content {
+  padding: 20px;
+  background: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+  border: none;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
